@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 import { fetchCars, searchCars } from './redux/actions';
 import CarCard from './components/CarCard';
 import Pagination from './components/Pagination';
-import SearchBar from './components/SearchBar'; // Import the SearchBar component
+import SearchBar from './components/SearchBar';
 import './App.css';
 
 function App() {
