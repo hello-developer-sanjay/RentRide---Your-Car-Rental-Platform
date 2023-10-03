@@ -27,7 +27,9 @@ db.once('open', () => {
 // API Routes
 const apiRoutes = require('./routes/apiRoutes');
 app.use('/api', apiRoutes);
-
+app.get('/', (req, res) => {
+  res.send('Welcome to My API');
+});
 // Start the server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
