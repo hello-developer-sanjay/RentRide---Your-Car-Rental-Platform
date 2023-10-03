@@ -4,7 +4,8 @@
     "description": "Seller App Backend",
     "main": "server.js",
     "scripts": {
-        "start": "node server.js"
+        "start": "node server.js",
+        "deploy": "yarn start"
     },
     "dependencies": {
         "cors": "^2.8.5",
