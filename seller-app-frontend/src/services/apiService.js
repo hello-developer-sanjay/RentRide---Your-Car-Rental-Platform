@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const apiService = axios.create({
-  baseURL: 'http://localhost:5000/api', // Adjust the base URL based on your server setup
+  baseURL: 'https://rent-nqhh.onrender.com/api', 
 });
 
 export const getCars = async () => {
